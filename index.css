@@ -1,0 +1,294 @@
+.bg-navbar-section {
+  background-color: #191a1d;
+  height: 100vh;
+}
+
+#auto {
+  margin-left: auto;
+}
+
+.navbar-heading-border {
+  border: 2px solid #4b6cc1;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.bg-section-image {
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.bg-section-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 45px;
+}
+
+.jenny-color {
+  color: #4b6cc1;
+}
+
+.bg-section-title {
+  color: #9aa5b1;
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+.bg-section-button {
+  background-color: #4b6cc1;
+  height: 45px;
+  width: 130px;
+  border-width: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+#iteams1 {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+#iteams2 {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+#iteams3 {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+#iteams4 {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+#iteams5 {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+/* about section css */
+
+.about-me-section-container {
+  background-color: #323f4b;
+}
+
+.about-sub-heading {
+  color: #cced00;
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.about-me-image {
+  width: 280px;
+  height: 500px;
+}
+
+.about-heading {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.about-paragraph {
+  color: #9aa5b1;
+  font-family: Roboto;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* skills section css */
+
+.skills-section-container {
+  background-color: #1f2933;
+}
+
+.skills-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  color: #cced00;
+}
+
+.skills-card {
+  border-radius: 8px;
+  background-color: #323f4b;
+  padding: 10px;
+}
+
+.skills-card-image {
+  height: 64px;
+  width: 64px;
+  border-radius: 5px;
+}
+
+.skills-card-title {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+/* project section css */
+
+.bg-portfolio-section {
+  background-color: #3e4c59;
+}
+
+.Portfolio-heading {
+  color: #cced00;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.todo-paragraph {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.todo-card {
+  background-color: #323f4b;
+}
+
+.web-design-heading {
+  color: #9aa5b1;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.todo-image {
+  width: 100%;
+}
+
+.card-heading {
+  color: white;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.card-paragraph {
+  color: #9aa5b1;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.Read {
+  color: #cced00;
+  font-size: 13px;
+}
+
+/* servies section css */
+
+.bg-container-section {
+  background-color: #52606d;
+}
+
+.Services-heading {
+  color: #cced00;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.main-paragraph {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.todo-image {
+  height: 60px;
+  width: 60px;
+}
+
+.todo-first-card {
+  background-color: #323f4b;
+  border-radius: 10px;
+}
+
+.card-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-paragraph {
+  color: #9aa5b1;
+  font-size: 15px;
+}
+
+/* project done css */
+
+.bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+  background-size: cover;
+}
+
+.icon {
+  font-size: 50px;
+  color: white;
+}
+
+.todo-hr-line {
+  background-color: white;
+  width: 70%;
+}
+
+.todo-paragraph-number {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.todo-paragraph-text {
+  color: white;
+  font-size: 15px;
+}
+
+/* footer section */
+
+.bg-section-container {
+  background-color: #0d2436;
+}
+
+.todo-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.main-heading {
+  color: #cced00;
+  font-size: 20px;
+  font-family: robot;
+}
+
+.todo-paragraph {
+  color: #9aa5b1;
+  font-size: 15px;
+  font-family: robot;
+}
+
+.icon {
+  font-size: 16px;
+  color: #5a7184;
+}
+
+.footer-section {
+  background-color: #001c32;
+  text-align: center;
+}
+
+.todo-footer {
+  color: #9aa5b1;
+  font-size: 15px;
+  font-family: robot;
+}
