@@ -7,6 +7,15 @@
   margin-left: auto;
 }
 
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, cursor 0.3s ease; /* Smooth transition for color and cursor */
+}
+
+.navbar-nav .nav-link:hover {
+  color: chocolate; /* Change color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
 .navbar-heading-border {
   border: 2px solid #4b6cc1;
   padding-left: 10px;
@@ -137,25 +146,32 @@
 
 /* project section css */
 
-.bg-portfolio-section {
+.bg-project-section {
   background-color: #3e4c59;
 }
 
-.Portfolio-heading {
-  color: #cced00;
-  font-family: Roboto;
+.project-section-sub-heading {
   font-size: 20px;
+  color: #cced00;
+  font-weight: bold;
 }
 
-.todo-paragraph {
-  color: white;
+.project-food-much-logo {
+  color: #cced00;
   font-family: Roboto;
   font-size: 20px;
   font-weight: bold;
 }
 
-.todo-card {
+.project-section-heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.project-card {
   background-color: #323f4b;
+  border-radius: 8px;
 }
 
 .web-design-heading {
@@ -164,7 +180,14 @@
   font-size: 15px;
 }
 
-.todo-image {
+.project-image {
+  width: 100%;
+}
+.wiki-project-image {
+  width: 150px;
+  margin-top: 10px;
+}
+.project-food-much-logo {
   width: 100%;
 }
 
@@ -188,107 +211,110 @@
 
 /* servies section css */
 
-.bg-container-section {
+.servies-section {
   background-color: #52606d;
 }
 
-.Services-heading {
+.Services-sub-heading {
   color: #cced00;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 20px;
-}
-
-.main-paragraph {
-  color: white;
-  font-size: 23px;
   font-weight: bold;
 }
 
-.todo-image {
-  height: 60px;
-  width: 60px;
+.servies-section-heading {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Roboto";
 }
 
-.todo-first-card {
+.servies-card-img {
+  height: 48px;
+  width: 48px;
+}
+
+.servies-card {
   background-color: #323f4b;
   border-radius: 10px;
+  padding: 20px;
 }
 
-.card-heading {
+.section-card-title {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
+  font-family: "Roboto";
 }
 
-.card-paragraph {
+.section-card-para {
   color: #9aa5b1;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: "Roboto";
 }
 
-/* project done css */
+/* work done section css */
 
-.bg-container {
+.work-done-section {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
   background-size: cover;
 }
 
-.icon {
-  font-size: 50px;
-  color: white;
-}
-
 .todo-hr-line {
   background-color: white;
-  width: 70%;
+  width: 60px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.todo-paragraph-number {
+.work-done-title {
   color: white;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: "Roboto";
 }
 
-.todo-paragraph-text {
+.work-done-sub-title {
   color: white;
-  font-size: 15px;
+  font-size: 16px;
+  font-family: "Roboto";
 }
 
 /* footer section */
 
-.bg-section-container {
+.footer-section {
   background-color: #0d2436;
 }
 
-.todo-image {
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-}
-
-.main-heading {
+.footer-section-sub-heading {
   color: #cced00;
   font-size: 20px;
-  font-family: robot;
+  font-family: "Roboto";
 }
 
-.todo-paragraph {
+.footer-section-text {
   color: #9aa5b1;
   font-size: 15px;
-  font-family: robot;
+  font-family: "Roboto";
 }
 
 .icon {
-  font-size: 16px;
+  font-size: 18px;
   color: #5a7184;
 }
 
-.footer-section {
+.footer-section-copyright-container {
   background-color: #001c32;
+  color: #ffffff;
   text-align: center;
+  padding: 10px;
 }
-
-.todo-footer {
-  color: #9aa5b1;
-  font-size: 15px;
-  font-family: robot;
+.icon {
+  font-size: 20px;
+  color: #5a7184;
+  margin-left: 10px;
+}
+.icon:hover {
+  font-size: 30px;
 }
